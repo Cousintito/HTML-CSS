@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            font-family:Arial, Helvetica, sans-serif ;
+        }
+        a{
+            color: blue;
+            text-decoration: none;
+            font-weight: bold;
+
+        }
+        a:visited{
+            color: brown;
+
+        }
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+        a:active{
+            color: aqua;
+        }
+        a::after{
+            content: ' link';
+            text-decoration: none;
+            font-weight: 100;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://www.youtube.com/watch?v=uzS3WG6__G4"rel="next">Pink + white</a> </li>
+        <li><a href="https://www.youtube.com/watch?v=9WNYIA1N4NU" target="_blank" rel="external">bad romance</a></li>
+        <li> <a href="https://www.youtube.com/watch?v=MV_3Dpw-BRY" target="_blank" rel="external">nightcall</a></li>
+    </ul>
+</body>
+</html>
